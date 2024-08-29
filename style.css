@@ -1,0 +1,80 @@
+html{
+    background-color:  hsl(47, 88%, 63%);
+    font-family: figtree;
+}
+body{
+    margin: 0;
+}
+.box{
+    background-color: hsl(0, 0%, 100%);
+    width: 27vw;
+    height: 70vh;
+    margin: 10em auto 0;
+    padding: 0 .8em;
+    border: 1px black solid;
+    border-radius: 25px;
+    box-shadow: black 10px 10px;
+}
+.box .container{
+    width: 96%;
+    height: 97%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+.img{
+    margin: 1.4em auto;
+}
+.container .details{
+    width: 100%;
+}
+.learning button{
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    border: none;
+    padding: 6px;
+    font-size: 1.6em;
+    font-weight: 800;
+    margin-bottom: .5em;
+    border-radius: 5px;
+}
+.learning button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: black;: ;
+    border:hsl(47, 88%, 63%) 3px solid;            /*bug:when you hover on button it get margin more than before*/
+}
+.publish-date{
+    margin-bottom: .6em;
+}
+.publish-date span{
+    font-weight: 600;
+}
+.article h1{
+    margin:0;
+}
+.article p{
+    font-size: 1.4em;
+    margin: .8em 0 .3em;
+    color: #8e8e8e;
+}
+.writer{
+    height: 4em;
+    width:  3em;
+    float: left;
+}
+.writer img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.name {
+    margin: 1em .3em;
+    float: left;
+    font-size: 1.3em;
+    font-weight: 700;
+}
